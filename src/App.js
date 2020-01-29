@@ -49,7 +49,7 @@ class App extends React.Component {
               <img src={employee.img} className="mr-3 directory-image" alt="..."/>
               <button type="button" className="btn btn-outline-primary">View</button>
                 <div className="media-body">
-                  <h5 className="mt-0">{employee.name}</h5>
+                  <h5 className="mt-0">Name: {employee.name}</h5>
                   {employee.location}
               </div>
           </div>
